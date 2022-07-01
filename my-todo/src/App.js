@@ -1,8 +1,7 @@
-
 function App() {
   return (
     <div >
-   ola mundo
+    Lista de tarefas
     </div>
   );
 }
