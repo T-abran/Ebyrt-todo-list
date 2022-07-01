@@ -1,7 +1,11 @@
+import Form from "./Components/Form";
+import List from "./Components/List";
+
 function App() {
   return (
     <div >
-    Lista de tarefas
+    <Form />
+    <List />
     </div>
   );
 }
