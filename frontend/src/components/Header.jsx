@@ -3,7 +3,12 @@ import React from 'react';
 function Header() {
   return (
     <div>
-      Lista de Tarefas
+      <header>
+        <h1>
+          Lista de Tarefas
+        </h1>
+      </header>
+
     </div>
   );
 }
