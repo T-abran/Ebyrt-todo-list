@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
 
 function TasksList() {
@@ -10,6 +11,7 @@ function TasksList() {
 
   function newTask() {
     setListTask(...listTask, value);
+    console.log(listTask);
   }
   function deleteTask() {
 
@@ -24,7 +26,7 @@ function TasksList() {
         <ul>
           {listTask.map((task, index) => (
             <>
-              <li key={task}>{task}</li>
+              <li key={index}>{task}</li>
               <button
                 type="button"
                 onClick={deleteTask(index)}
